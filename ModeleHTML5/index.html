@@ -30,12 +30,20 @@
       </ul>
     </div>
   </nav>
-    <div id="imgH">
-      <img src="http://img.20mn.fr/6tIgQeZMQRaaUbfwChtgsg/561x360_batiment-clairsienne-perimetre-bordeaux-euratlantique-accueillera-logements-bureaux"alt="">
-    </div>
-    <div>
-      <p>.</p>
-    </div>
+      <div class="contener_slideshow">
+        <div class="contener_slide">
+          <div class="slid_1">
+            <img src="http://img.20mn.fr/6tIgQeZMQRaaUbfwChtgsg/561x360_batiment-clairsienne-perimetre-bordeaux-euratlantique-accueillera-logements-bureaux" alt="" width="610" height="211">
+          </div>
+          <div class="slid_2">
+            <img src="https://www.mstconsult.lu/wp-content/uploads/2017/03/NAOS_PERS1-2-e1502281415803.jpg" alt="" width="610" height="211">
+          </div>
+          <div class="slid_3">
+            <img src="https://images.sudouest.fr/2015/07/10/57eb94aa66a4bd7760c3152d/widescreen/1000x500/le-projet-de-construction-dun-batiment-hebergeant-une-piscine-et-le-siege-social-de-la-communaute-de-communes-a-du-etre-abandonne-faute-de-moyens.jpg" alt="" width="610" height="211">
+          </div>
+        </div>
+      </div>
+      <br>
 </header>
   <!-- 
   ~~~~~~~~~~~~ End Header ~~~~~~~~~~~ 
@@ -47,10 +55,23 @@
   -->
 <main>
   <section>
-    <h2>PROJETS</h2>
+    <br>
+    <br>
+    <h2 class="cadre">
+      <img src ="http://image.noelshack.com/fichiers/2018/38/7/1537722794-exca.png" alt="" width="35" height="35">PROJETS...</h2>
+    <div class="add">
+      <a href="https://gagosciences.ibs.fr/Gestion%20du%20site/images/page-en-construction/image_view_fullscreen/category/online-dating-quality"><img src="https://www.iconsdb.com/icons/preview/orange/add-file-xxl.png" alt ="" width="35" height="35">Ajouter un projet</a>
+    </div>
+    <div class="edit">
+      <a href="https://gagosciences.ibs.fr/Gestion%20du%20site/images/page-en-construction/image_view_fullscreen/category/online-dating-quality"><img src="https://www.iconsdb.com/icons/preview/orange/edit-xxl.png" alt="" width="35" height="35">Editer un projet</a>
+    </div>
+    <div class="delete">
+      <a href="https://gagosciences.ibs.fr/Gestion%20du%20site/images/page-en-construction/image_view_fullscreen/category/online-dating-quality"><img src="https://www.iconsdb.com/icons/preview/orange/delete-xxl.png" alt="" width="35" height="35">Supprimer un projet</a>
+    </div>
+
     <div>
-      <article>
-        <h3>CONSTRUCTION D'UNE MAISON</h3>
+      <article id="columnG">
+        <h3>CONSTRUCTION D'UNE MAISON (fini)</h3>
           <div>
             <h4>Construction des fondations</h4>
               <div>
@@ -112,9 +133,10 @@
                   </ul>
               </div>
           </div>
-      </article>
-      <article>
-        <h3>POSE D'UNE DALLE DE JARDIN</h3>
+        </article>
+
+      <article id="columnD">
+        <h3>POSE D'UNE DALLE (en cours)</h3>
           <div>
             <h4>Faire les fondations </h4>
               <div>
@@ -168,8 +190,8 @@
   ~~~~~~~~~~~~ Star Footer ~~~~~~~~~~~ 
   -->
 <footer>
-  <div>
-    <section>
+  <div id="footer">
+    <section id="service">
       <h6>Services</h6>
       <a href="https://gagosciences.ibs.fr/Gestion%20du%20site/images/page-en-construction/image_view_fullscreen/category/online-dating-quality">Devis</a><br>
       <a href="https://gagosciences.ibs.fr/Gestion%20du%20site/images/page-en-construction/image_view_fullscreen/category/online-dating-quality">Mentions légales</a><br>
@@ -180,14 +202,14 @@
       <a href="https://gagosciences.ibs.fr/Gestion%20du%20site/images/page-en-construction/image_view_fullscreen/category/online-dating-quality">Découvrir Construi' Bat.</a><br>
       <a href="https://gagosciences.ibs.fr/Gestion%20du%20site/images/page-en-construction/image_view_fullscreen/category/online-dating-quality">Actualités</a>
     </section>
-    <section>
+    <section id="contact">
       <h6>Contact</h6>
         <p><strong>Adresse :</strong> 123 Rue du bâtiment</p>
         <p>59100 ROUBAIX</p>
         <p><strong>Tél :</strong> 02.59.10.00.62</p>
         <p><strong>Mail :</strong>Construi-Bat@btp.fr</p>
     </section>
-    <section>
+    <section id="collabo">
       <h6>Collaborateurs</h6>
         <div>
           <a href="https://www.bricodepot.fr/"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/f/fe/Bricodepot.svg/800px-Bricodepot.svg.png" alt="bricodepot" width="40" height="40"></a>
@@ -197,9 +219,15 @@
         </div>
     </section>
   </div>
+  
 <!-- 
     ~~~~~~~~~~~~ End Footer ~~~~~~~~~~~ 
      -->
+
+    <div class="rectangleG"></div>
+    <div class="rectangleD"></div>
+   
+
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
