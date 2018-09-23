@@ -16,17 +16,6 @@ html {
     line-height: 1.4;
 }
 
-nav {
-    background-color: grey;
-}
-
-
-/* ajouter à l'élément : */
-#slideshow figcaption {
-	/* ... la propriété animation */
-	animation: figcaptionner 32s infinite;
-}
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -107,7 +96,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+.image {
+    background-image: "http://fayat.com/var/plain_site/storage/images/media/images/hotel-de-ville-de-bagnolet/47676-1-fre-FR/Hotel-de-Ville-de-Bagnolet_content.jpg";
+}
 
 
 
