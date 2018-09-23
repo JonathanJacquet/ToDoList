@@ -96,20 +96,61 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.image {
-    background-image: "http://fayat.com/var/plain_site/storage/images/media/images/hotel-de-ville-de-bagnolet/47676-1-fre-FR/Hotel-de-Ville-de-Bagnolet_content.jpg";
+body {
+    background-image:url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-HD-Construction-Backgrounds-PIC-WPB003696.jpg");
 }
 
+nav {
+    background-color:white;
+    border: solid orange 2px;
+    height: 50px;
+}
 
+#nav {
+    padding: 0;
+    margin-top: -2%;
+}
 
+#nav li {
+    display: inline;
+    list-style: none;
+}
 
+#nav a {
+    display: inline-block;
+    margin: 0 30px;
+}
 
+#gauche {
+    margin-left: -3%;
+    text-indent: 350px;
+}
 
+#droite {
+    text-align: right;
+    text-indent: 350px;
+}
 
+#milieu {
+    padding-left: 10%;
+}
 
+a:link
+{
+text-decoration:none;
+} 
 
+header,
+main,
+footer {
+    background-color: white;
+}
 
-
+#imgH {
+    display: block;
+    margin-left: 35%;
+    margin-top: 2%;
+}
 
 
 
