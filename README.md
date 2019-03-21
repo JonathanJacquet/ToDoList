@@ -3,5 +3,7 @@ Réaliser une ToDoList, en mettant en pratique l'apprentissage du maquettage, c'
 * Usecase
 * Wireframe
 
+
+## LANGAGES & TECHNOLOGIES UTILISÉS
 ![HTML5](https://img.shields.io/badge/-HTML5-orange.svg)
 ![CSS3](https://img.shields.io/badge/-CSS3-blue.svg)
